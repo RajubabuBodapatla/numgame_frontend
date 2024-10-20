@@ -1,0 +1,147 @@
+@import '../../mixins.scss';
+
+.homedivapp{
+    width: 100%;
+    // min-height: 100vh;
+
+  
+
+
+    .home-div{
+        display: flex;
+        width: 60%;
+        flex-wrap: wrap;
+        margin-top: 20px;
+        align-items: center;
+        @include sm{
+            width: 90%;
+            margin-top: 20px;
+        }
+        img{
+            height: 50px;
+            width: 70px;
+            margin: 10px;
+        }
+    
+        .profile-div{
+            height: 53vh;
+            width: 45%;
+            @include sm{
+                width: 90%;
+                height: 38vh;
+            }
+            
+            p{
+                margin-left: 20px;
+                text-align: left !important;
+    
+            }
+        }
+        .highScore-div,
+        .tab{
+            cursor: pointer;
+            color: whitesmoke;
+            border-radius: 20px;
+            background-image: url('../../Assets/card_background.jpg');
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1),0 1px 3px rgba(0, 0 ,0 , 0.08);
+            p{
+                text-align: center;
+            }
+        }
+     
+           
+        
+        .highScore-div{
+    
+            font-size: 14px;
+           p{
+            width: 80%;
+            text-align: center;
+            margin-left: 10%;
+            i{
+                margin: 5px;
+                color: gold;
+            }
+           }
+            
+        }
+       
+            .rightspan{
+                color: #C12897;
+            }
+            .second-div{
+                display: flex;
+                flex-direction: column;
+                @include sm{
+                    flex-direction: row;
+                }
+                .tab{
+                    height: 25vh;
+                    width: 300px;
+                    margin: 10px;
+                   
+                    
+                    @include sm{
+                        height: 15vh;
+                        width: 165px;
+                        img{
+                            height: 35px;
+                            width: 50px;
+                           
+                            margin: 0;
+                            margin-left: 10px;
+                            margin-top: 5px;
+                        }
+                    }
+                   
+                }
+            }
+        .anichar{
+           height: 200px;
+           width: 170px;
+           display: inline-block;
+           margin-left: 120px;
+           @include sm{
+            margin-left: 100px;
+           }
+    
+        
+    
+}
+
+}
+.gameplay-div{
+    p{  
+        font-size: 35px;
+        font-weight: 1500;
+        color: #FF914B;
+        margin: 0 20px;
+        @include sm{
+        font-size: 26px;
+        font-weight: 1000;
+       
+        }
+    }
+   
+
+}
+.instr-div{
+    font-size: 14px;
+    p{
+        text-align: left !important;
+        margin-bottom: 5px;
+
+    }
+    
+    width: 90%;
+    margin-top: 25px;
+    background-image: url('../../Assets/card_background.jpg');
+    padding: 10px 20px;
+    border-radius: 20px;
+    @include sm{
+        width: 90%;
+        margin-top: 10px;
+    }
+}
+}
+

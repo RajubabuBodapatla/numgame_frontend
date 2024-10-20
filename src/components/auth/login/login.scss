@@ -1,0 +1,45 @@
+
+.form-container{
+
+    width: 90%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    align-items: center;
+    border-radius: 10px;
+ 
+
+    input{
+        width: 80%;
+        padding: 10px;
+        border: none;
+        outline: none;
+        margin: 20px;
+        color: black;
+    }
+    .spin{
+        height: 30px !important;
+    }
+    
+    button{
+        width: 30%;
+        margin: 10px 20px;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        background-color:#FF914B;
+        color: white;
+    }
+    h3{
+        margin: 10px;
+    }
+    .toggle-link{
+    text-decoration: none;
+    color: #FF914B;
+    }
+    
+}

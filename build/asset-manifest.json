@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ef1b794c.css",
+    "main.js": "/static/js/main.c3176674.js",
+    "static/media/image.png": "/static/media/image.95124b9b759daa767364.png",
+    "static/media/sum-profile.png": "/static/media/sum-profile.0021432bce64f2866eb1.png",
+    "static/media/SumitUpLogo-removebg-preview.png": "/static/media/SumitUpLogo-removebg-preview.ca23f6e0a40b1964cce5.png",
+    "static/media/sum-game.png": "/static/media/sum-game.dea2cd11af7a3b6110ee.png",
+    "static/media/sum-highscore.png": "/static/media/sum-highscore.b22bed9836389960b24f.png",
+    "static/media/card_background.jpg": "/static/media/card_background.77c3d148b8b7fad325cc.jpg",
+    "index.html": "/index.html",
+    "main.ef1b794c.css.map": "/static/css/main.ef1b794c.css.map",
+    "main.c3176674.js.map": "/static/js/main.c3176674.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef1b794c.css",
+    "static/js/main.c3176674.js"
+  ]
+}

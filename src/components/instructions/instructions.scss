@@ -1,0 +1,14 @@
+@import '../../mixins.scss';
+
+.instructions-container{
+    width: 90%;
+    margin-left: 5%;
+  @include sm{
+    font-size: 16px;
+
+  }
+    
+    h3{
+        margin: 10px;
+    }
+}

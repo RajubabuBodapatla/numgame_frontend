@@ -1,0 +1,90 @@
+@import '../../mixins.scss';
+
+
+
+.game-div{
+    background-color: transparent;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 30px;
+    align-items: center;
+    @include sm{
+         p{
+            font-size: large;
+         }
+         
+    }
+    h1,h2,h3,h4{
+        text-align: center;
+        margin: 0;
+        
+    }
+    p{
+        font-size: xx-large;
+        margin: 0;
+    }
+    .level-div{
+        display: flex;
+        width: 50%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        span{
+            color: #C12897;
+        }
+        font-size: 1.7rem;
+        p{
+            margin: 5px 20px;
+        }
+        @include sm{
+            width: 80%;
+        }
+    }
+ 
+    .num-div{
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        @include sm{
+            width: 85%;
+        }
+        button{
+           height: 60px;
+           border-radius: 10px;
+           width: 60px;
+           border: none;
+           font-size: x-large;
+           background-color: #FF914B;
+           color: whitesmoke;
+           margin: 5px;
+          
+        }
+      
+    }
+    .difficulty{
+        color:#C12897;
+    }
+    .note{
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        padding: 50px;
+        background-color: transparent;
+        @include sm{
+            padding:20px 10px;
+        }
+        p{  
+            
+            font-size: 24px;
+            text-align: center;
+            margin: 5px;
+        }
+        span{
+            color: #FF914B;
+        }
+        
+    }
+}

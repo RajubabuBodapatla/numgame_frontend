@@ -1,0 +1,35 @@
+@import '../../mixins.scss';
+
+.end-div{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    @include sm{
+        margin-top: 10vh;
+    }
+    
+    .end-ani{
+    
+    height: 300px !important;
+    width: 300px !important;
+    
+}
+.endgame-span{
+    color: #C12897;
+    // margin-left:30% ;
+    font-size: 150px;
+    font-weight: 1000;
+    @include sm{
+        font-size: 200px;
+        margin-left: 23%;
+    
+    }
+}
+p{
+    font-size: xx-large;
+    margin: 15px;
+    text-align: center;
+}
+
+}

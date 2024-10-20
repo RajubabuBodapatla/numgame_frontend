@@ -1,0 +1,53 @@
+@import "../../mixins.scss";
+
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+   
+    .navbar{
+        display: flex;
+        width: 60%;
+        justify-content: space-around;
+        @include sm{
+            width: 75%;
+        }
+        li{
+            list-style-type: none;
+            .link{
+                text-decoration: none;
+                font-size: larger;
+                i{
+                    color: #FF914B;
+                }
+               
+            }
+            
+        }
+      
+    }
+    .logo{
+        height: 70px;
+        width: 100px;
+        margin-left: 10px;
+        @include sm{
+            margin-left:0px;
+        }
+    }
+    .userName{
+        padding: 5px 10px;
+        background-color: #C42997;
+        font-size: larger;
+        color: white;
+        border-radius: 10px;
+        margin-right: 50px;
+
+        @include sm{
+            margin-right: 20px;
+        }
+
+    }
+   
+}
